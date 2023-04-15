@@ -8,3 +8,7 @@ initial version, only contains the base of CodeIgniter
 v0.2.0:
 
 added form for user-friendly interface to calculate the fibonacci series
+
+v0.3.0:
+
+adding the ability to calculate the fibonacci series and receive the request through a user interface or API call
