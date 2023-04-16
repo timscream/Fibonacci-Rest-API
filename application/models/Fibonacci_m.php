@@ -32,7 +32,7 @@ class Fibonacci_m extends CI_Model {
 
         for($i=1;$i<=$n;$i++)
         {
-            $fibonacci_result = f($i).PHP_EOL;
+            $fibonacci_result = f($i);
         }
 
         return $fibonacci_result;
