@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Fibonacci_m extends CI_Model {
 
-    private function fibonacci_enhanced($n){
+    private function fibonacci_enhanced($n){ //hotfix-V0.3.1-sn
 
         $fibonacci_result = [0,1];
 
@@ -15,9 +15,9 @@ class Fibonacci_m extends CI_Model {
         }
 
         return $fibonacci_result[$n];
-    }
+    } //hotfix-V0.3.1-en
 
-    private function fibonacci_recursive($n){
+    /* private function fibonacci_recursive($n){ //deprecated hotfix-V0.3.1-so
 
         $fibonacci_result = 0;
         
@@ -36,11 +36,11 @@ class Fibonacci_m extends CI_Model {
         }
 
         return $fibonacci_result;
-    }
+    } */ //hotfix-V0.3.1-eo
 
     public function calculate_fibonacci_serie($n){
 
-        return $this->fibonacci_recursive($n);
+        return $this->fibonacci_enhanced($n);
     }
 }
 
