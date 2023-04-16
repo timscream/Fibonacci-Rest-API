@@ -39,10 +39,3 @@ Bug Reports
 
 Bug and/or error reports regarding Fibonacci-Rest-API should be submitted at:
 timscream@hotmail.com
-
-***************************************************************************
-
-future releases
-------------
-a function will be created that calculates the fibonacci series with greater efficiency using memorization
-
