@@ -17,6 +17,10 @@ v0.3.0:
 
 adding the ability to calculate the fibonacci series and receive the request through a user interface or API call
 
+v0.3.1(hotfix):
+
+deactivated recursive function to calculate fibonacci series and added optimized function to perform the same calculation
+
 ***************************************************************************
 
 NOTE: 
