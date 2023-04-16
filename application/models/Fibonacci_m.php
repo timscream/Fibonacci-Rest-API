@@ -18,6 +18,8 @@ class Fibonacci_m extends CI_Model {
     }
 
     private function fibonacci_recursive($n){
+
+        $fibonacci_result = 0;
         
         function f($x)
         {
@@ -30,8 +32,10 @@ class Fibonacci_m extends CI_Model {
 
         for($i=1;$i<=$n;$i++)
         {
-            echo f($i).PHP_EOL;
+            $fibonacci_result = f($i).PHP_EOL;
         }
+
+        return $fibonacci_result;
     }
 
     public function calculate_fibonacci_serie($n){
